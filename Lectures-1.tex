@@ -1,0 +1,44 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+
+\usepackage{amssymb}
+\usepackage{xcolor}
+
+\usepackage{indentfirst}
+
+\usepackage[normalem]{ulem}
+
+\newcommand{\example}{{\itshape Пример. }}
+\newcommand{\equals}{\Leftrightarrow}
+\newcommand{\defi}{{\itshape Определение. }}
+\newcommand{\exc}{{\bfseries Упражнение. }}
+\newcommand{\thr}{{\bfseries Теорема. }}
+\newcommand{\lem}{{\bfseries Лемма. }}
+
+\renewcommand{\leq}{\leqslant}
+\renewcommand{\geq}{\geqslant}
+
+\begin{document}
+	\title{Методы математической физики}
+	\author{Сердюков Александр Сергеевич}
+	\date{}
+	\maketitle
+	
+	\section{Системы линейных дифференциальных уравнений 1 порядка}
+	
+	\thr Теорема существования и единственности решения задачи Коши.
+	
+	Если $A(t) \in C[a,b]$, то $\exists y(t) \in C^1[a,b] $ -решение задачи Коши.
+	
+	Схема доказательства:
+	\begin{enumerate}
+		\item Задачу Коши сводим к интегральному уравнению.
+		\item Метод последовательных приближений.
+		\item Из равномерной сходимости следует то, что мы перейти к пределу под интегралом.
+	\end{enumerate}
+	
+	Для доказательства данной теоремы докажем пару вспомогательных лемм.	 
+
+\end{document}
